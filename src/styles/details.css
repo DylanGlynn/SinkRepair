@@ -1,0 +1,96 @@
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceRequests {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.serviceRequests__list {
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.serviceRequests__header {
+    display: flex;
+    background-color: darkcyan;
+    color: white;
+    justify-content: space-between;
+}
+
+.serviceRequests__list-body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    justify-self: center;
+    justify-items: center;
+    line-height: 2em;
+}
+
+.completedRequest {
+    background-color: rgba(255, 50, 50, .5);
+}
+
+td {
+    display: flex;
+}
+
+.deleteButton {
+    justify-self: right;
+}
+
+#submitRequest {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.25rem;
+    background-color: navy;
+    color: rgb(230, 220, 255);
+    font-size: 110%;
+}
+
+.label {
+    font-size: 120%;
+}
+
+.request__delete {
+    background-color: navy;
+    color: rgb(230, 220, 255);
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+}
+
+#requestTable__row {
+    display: flex;
+    align-content: left;
+}
+
+.plumbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 500px;
+    text-align: left;
+}
+
+.completedBy {
+    width: 200px;
+    text-align: left;
+}
+
+#visibilityHidden {
+    visibility: hidden;
+}
+
+.serviceForm {
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}

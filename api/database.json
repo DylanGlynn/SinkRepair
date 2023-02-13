@@ -1,0 +1,82 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 2,
+      "plumberId": 1,
+      "timestamp": 1676301071238,
+      "id": 1
+    },
+    {
+      "requestId": 3,
+      "plumberId": 1,
+      "timestamp": 1676302544109,
+      "id": 2
+    },
+    {
+      "requestId": 4,
+      "plumberId": 2,
+      "timestamp": 1676302574932,
+      "id": 3
+    }
+  ],
+  "requests": [
+    {
+      "status": "completed",
+      "description": "Kitchen sink leaks.",
+      "address": "1890 Faux Ave.",
+      "budget": 250,
+      "neededBy": "2023-02-13",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "description": "Garbage disposal is stuck.",
+      "address": "1890 Faux Ave.",
+      "budget": 250,
+      "neededBy": "2023-02-13",
+      "status": "open"
+    },
+    {
+      "description": "Extra-large pizza stuck in garbage disposal",
+      "address": "5098 Main St. Apt.73",
+      "budget": "1000",
+      "neededBy": "2023-02-02",
+      "id": 3,
+      "status": "open"
+    },
+    {
+      "description": "Leaking bath tub",
+      "address": "1000 Infinity Way S.",
+      "budget": "300",
+      "neededBy": "2023-02-24",
+      "id": 4,
+      "status": "open"
+    },
+    {
+      "description": "Cracked sink",
+      "address": "1000 Infinity Way S.",
+      "budget": "2000",
+      "neededBy": "2023-02-24",
+      "id": 5,
+      "status": "open"
+    },
+    {
+      "description": "Frozen exterior faucet",
+      "address": "80 Northwest Way E.",
+      "budget": "350",
+      "neededBy": "2023-02-03",
+      "id": 6,
+      "status": "open"
+    }
+  ]
+}
